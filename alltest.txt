@@ -5,3 +5,8 @@ npm i -D husky
 "prepare": "husky install"
 npx husky add .husky/commit-msg "commitlint --edit $1"
 npx husky add .husky/pre-commit "echo test"
+
+
+//
+tyed multiple command line 
+git commit -m "feat: checking second time" -m "fix:checking third time"   -> failed so try another way
